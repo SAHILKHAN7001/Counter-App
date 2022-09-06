@@ -7,6 +7,10 @@ function Increment() {
     count +=1;
     countinfo.textContent = count;
 }
+function Decrement() {
+    count -=1;
+    countinfo.textContent = count;
+}
 
 
 function Save() {
